@@ -1,0 +1,75 @@
+name: Drip publish (1 queued Qiita article per day)
+
+# queue/ の先頭1本を public/ へ移して自動公開する。クラウド実行・無期限・無人。
+# 公開順は queue/ のファイル名の昇順（連番プレフィックス推奨: 01-, 02- ...）。
+
+on:
+  schedule:
+    - cron: "13 3 * * *" # 毎日 03:13 UTC = 12:13 JST
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "公開せずキュー選択ロジックだけ検証する"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  drip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Pick next queued article
+        id: pick
+        shell: bash
+        run: |
+          shopt -s nullglob
+          files=(queue/*.md)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "Queue is empty — nothing to publish."
+            echo "empty=1" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          next=$(printf '%s\n' "${files[@]}" | LC_ALL=C sort | head -n1)
+          echo "next=$next" >> "$GITHUB_OUTPUT"
+          echo "base=$(basename "$next")" >> "$GITHUB_OUTPUT"
+          echo "Picked: $next"
+
+      - name: Move queued article into public/
+        if: steps.pick.outputs.empty != '1'
+        shell: bash
+        run: |
+          git mv "${{ steps.pick.outputs.next }}" "public/${{ steps.pick.outputs.base }}"
+          echo "Moved to public/${{ steps.pick.outputs.base }}"
+
+      - name: DRY RUN (revert move, skip publish)
+        if: ${{ steps.pick.outputs.empty != '1' && inputs.dry_run }}
+        shell: bash
+        run: |
+          echo "DRY RUN: would publish public/${{ steps.pick.outputs.base }}"
+          git reset --hard
+
+      - name: Publish to Qiita
+        if: ${{ steps.pick.outputs.empty != '1' && !inputs.dry_run }}
+        uses: increments/qiita-cli/actions/publish@v1
+        with:
+          qiita-token: ${{ secrets.QIITA_TOKEN }}
+          root: "."
+
+      - name: Commit queue move
+        if: ${{ steps.pick.outputs.empty != '1' && !inputs.dry_run }}
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing extra to commit (publish step already committed)."
+          else
+            git commit -m "drip-publish: ${{ steps.pick.outputs.base }}"
+          fi
+          git push
