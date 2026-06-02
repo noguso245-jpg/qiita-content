@@ -1,17 +1,14 @@
 {
-  "name": "zenn-qiita-content",
+  "name": "qiita-content",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "description": "Zenn (articles/) と Qiita (public/) を1リポジトリから git push で自動公開する技術記事リポジトリ",
+  "description": "Qiita (public/) を git push で自動公開する技術記事リポジトリ",
   "scripts": {
-    "zenn:preview": "zenn preview",
-    "zenn:new": "zenn new:article",
     "qiita:preview": "qiita preview",
     "qiita:publish": "qiita publish --all"
   },
   "devDependencies": {
-    "@qiita/qiita-cli": "^1.6.1",
-    "zenn-cli": "^0.1.160"
+    "@qiita/qiita-cli": "^1.6.1"
   }
 }
