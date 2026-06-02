@@ -1,14 +1,14 @@
 ---
-title: 'Claude Codeのサブエージェントを実務で使い倒す — タスク分割・並列実行・親子設計の型'
+title: Claude Codeのサブエージェントを実務で使い倒す — タスク分割・並列実行・親子設計の型
 tags:
-  - ClaudeCode
   - AI
+  - 個人開発
   - 生成AI
   - プロンプトエンジニアリング
-  - 個人開発
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-02T16:38:40+09:00'
+id: bad28b38077ce336a0fe
 organization_url_name: null
 slide: false
 ignorePublish: false
