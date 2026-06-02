@@ -1,14 +1,14 @@
 ---
 title: 毎回同じプロンプトを書くのをやめる — Claude Codeのカスタムスラッシュコマンド実践ガイド
 tags:
-  - ClaudeCode
+  - 効率化
   - AI
   - 個人開発
   - 生成AI
-  - 効率化
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-02T16:55:01+09:00'
+id: 204fa451cbd9f439b7b6
 organization_url_name: null
 slide: false
 ignorePublish: false
