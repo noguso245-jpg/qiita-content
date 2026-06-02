@@ -1,0 +1,45 @@
+name: Generate queue article (Anthropic API)
+
+# queue/ が5本未満のとき、Anthropic API で Qiita 記事を1本生成して queue/ に追加する。
+# 公開は drip-publish.yml が別途毎日行う。生成＋公開ともクラウド完結＝Claude起動不要・無期限。
+# 必要: リポジトリ Secrets に ANTHROPIC_API_KEY を登録。
+
+on:
+  schedule:
+    - cron: "17 21 * * *" # 毎日 21:17 UTC = 06:17 JST（queue<5のときだけ生成）
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate article into queue/
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          QUEUE_TARGET: "5"
+          GEN_MODEL: "claude-sonnet-4-6"
+        run: node scripts/generate-article.mjs
+
+      - name: Commit new queue article
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain queue)" ]; then
+            git add queue
+            git commit -m "generate-queue: add article"
+            git push
+          else
+            echo "No new article to commit (queue full or no unused topic)."
+          fi
