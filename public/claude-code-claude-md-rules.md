@@ -1,14 +1,14 @@
 ---
-title: 'Claude Codeが指示を守らないのは設定のせい — 遵守率を35%から89%に上げるCLAUDE.mdの書き方'
+title: Claude Codeが指示を守らないのは設定のせい — 遵守率を35%から89%に上げるCLAUDE.mdの書き方
 tags:
-  - ClaudeCode
   - AI
+  - 個人開発
   - 生成AI
   - プロンプトエンジニアリング
-  - 個人開発
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-03T13:46:38+09:00'
+id: eb798d44510810afeefc
 organization_url_name: null
 slide: false
 ignorePublish: false
