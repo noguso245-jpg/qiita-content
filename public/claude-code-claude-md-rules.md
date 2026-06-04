@@ -27,7 +27,7 @@ Claude Codeを使っていて、こんな経験はありませんか。
 
 この記事では、Claude Codeが実際にルールを守るようになる `CLAUDE.md` の設計方法を、Before/Afterの具体例つきで紹介します。すべてコピペして今日から試せます。
 
-なお、ここで紹介する型は、そのまま使える関連スキルとして無料リポで配布しています（記事末にリンク）。
+📦 この記事で使うCLAUDE.md設計・プロンプト設計のスキルは、無料リポ（GitHub・CC BY 4.0）で配布中です。すぐ試したい方は記事末の「今すぐ試す」へ。
 
 ---
 
@@ -223,17 +223,25 @@ git commit -m "feat(auth): JWTリフレッシュトークンのローテーシ�
 
 ---
 
-## おまけ：4つの型をまとめた無料スキル集を公開しています
+## この記事の「CLAUDE.mdの書き方」を、無料スキルで今すぐ試す
 
-この記事で触れた **CLAUDE.md設計 / アジャイルなプロンプト設計 / 計画ファースト開発（PIV: Plan-Implement-Verify）/ AIコミット戦略** の4つを、そのまま自分のプロジェクトにコピーして使える形（手順・プロンプト例・アンチパターンつき）で、日本語・英語の両方でGitHubに無料公開しています。ライセンスは CC BY 4.0 で、商用利用も改変も自由です。
+本文で触れた **CLAUDE.md設計 / アジャイルなプロンプト設計 / 計画ファースト開発（PIV）/ AIコミット戦略** の4本を、そのままコピーして使える形（手順・プロンプト例・アンチパターンつき）で無料公開しています（日本語・英語・CC BY 4.0、改変も商用も自由）。
 
-👉 [claude-code-skills-starter（GitHub）](https://github.com/noguso245-jpg/claude-code-skills-starter)
+**3ステップで試せます:**
+
+**① リポを開く**
+👉 https://github.com/noguso245-jpg/claude-code-skills-starter
+
+**② 「指示が通らない」に効く2本をコピーする**（コピペ1回）
 
 ```bash
 git clone https://github.com/noguso245-jpg/claude-code-skills-starter
-cp claude-code-skills-starter/skills/ja/claude-md-architecture.md your-project/.claude/skills/
+cp claude-code-skills-starter/skills/ja/claude-md-architecture.md  your-project/.claude/skills/
+cp claude-code-skills-starter/skills/ja/agile-prompt-template.md   your-project/.claude/skills/
 ```
 
-4本はそれぞれ単体で実用でき、組み合わせると「計画→実装→検証→コミット→CLAUDE.mdで統治」という1つの開発ループになります。
+**③ 役に立ったら ⭐ Star を押す**
+⭐ は「同じく指示が通らずに困っている人に、このリポが届きやすくなる」応援です。
+新しい無料スキルの追加を追いたい方は **👁 Watch** にすると更新が通知されます。
 
-役に立ったら、GitHubで ⭐ Star をいただけると新しい無料スキルを追加する励みになります。記事への質問・「次はこのテーマを掘ってほしい」という要望もコメントで歓迎です。
+「次はこのテーマを掘ってほしい」という要望もコメントで歓迎です。

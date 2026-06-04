@@ -16,7 +16,7 @@ Claude Codeを使っていれば、こういう事故のリスクは常にあり
 
 この記事では、**Hooks機能**を使ってこれらの事故を大幅に減らせる場合がある設定方法を解説します（効果には個人差・環境差があります）。
 
-Hooksと相性のいいCLAUDE.md設計やコミット戦略などの関連スキルは、無料リポで配布しています（記事末にリンク）。
+📦 本記事で触れるHooks/CLAUDE.md設計/コミット戦略のスキルは、無料リポ（GitHub・CC BY 4.0）で配布しています。すぐ試したい方は記事末の「今すぐ試す」へ。
 
 ---
 
@@ -253,16 +253,29 @@ claude
 
 ---
 
-## Claude Code実戦スキルを無料配布中
+## この記事のHooksを、無料スキルと一緒に今すぐ試す
 
-本記事のHooksと組み合わせると効くスキル群を、無料リポで公開しています。
+Hooksは「CLAUDE.md設計」と「コミット戦略」とセットで効きます。下記の無料リポにその2本を含む4スキルが入っています（日本語・英語・CC BY 4.0、商用利用可）。
 
-**無料スターター（GitHub・CC BY 4.0）:**
-https://github.com/noguso245-jpg/claude-code-skills-starter
+**3ステップで試せます:**
 
-中身は、Claude Code実戦投入の4本のスキル — **CLAUDE.md設計 / 計画ファースト開発（PIV: Plan-Implement-Verify）/ AIコミット戦略 / アジャイルなプロンプト設計** — が日本語・英語の両方で入っています。クローンしてそのまま自分のプロジェクトにコピーして使えます。
+**① リポを開く**
+👉 https://github.com/noguso245-jpg/claude-code-skills-starter
 
-役に立ったら、GitHubで ⭐ Star をいただけると新しい無料スキルを追加する励みになります。
+**② スキルを自分のプロジェクトにコピーする**（コピペ1回）
+
+```bash
+git clone https://github.com/noguso245-jpg/claude-code-skills-starter
+# Hooksと相性の良い2本をコピー
+cp claude-code-skills-starter/skills/ja/claude-md-architecture.md your-project/.claude/skills/
+cp claude-code-skills-starter/skills/ja/ai-commit-strategy.md   your-project/.claude/skills/
+```
+
+**③ 役に立ったら ⭐ Star を押す**
+⭐ は「同じ事故で困っている人に、このリポが見つかりやすくなる」応援です。
+新しい無料スキルの追加を追いたい方は **👁 Watch** にすると更新が通知されます。
+
+質問や「次に掘ってほしいテーマ」は、この記事のコメントで歓迎です。
 
 ---
 
