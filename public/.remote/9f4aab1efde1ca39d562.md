@@ -1,10 +1,10 @@
 ---
-title: Claude Code Hooksで「AIによる事故」をゼロにする完全設定ガイド
+title: Claude Code Hooksで「AIによる事故」を減らす設定ガイド
 tags:
   - AI
   - ClaudeCode
 private: false
-updated_at: '2026-05-26T21:49:11+09:00'
+updated_at: '2026-06-04T11:40:43+09:00'
 id: 9f4aab1efde1ca39d562
 organization_url_name: null
 slide: false
@@ -14,7 +14,9 @@ ignorePublish: false
 
 Claude Codeを使っていれば、こういう事故のリスクは常にあります。
 
-この記事では、**Hooks機能**を使ってこれらの事故を完全に防ぐ設定方法を解説します。
+この記事では、**Hooks機能**を使ってこれらの事故を大幅に減らせる場合がある設定方法を解説します（効果には個人差・環境差があります）。
+
+Hooksと相性のいいCLAUDE.md設計やコミット戦略などの関連スキルは、無料リポで配布しています（記事末にリンク）。
 
 ---
 
@@ -247,24 +249,20 @@ claude
 | コスト管理 | 高額請求 |
 | Lint自動実行 | CI失敗 |
 
-3つのHookで、Claude Codeを使ったほぼすべての重大事故を防げます。
+3つのHookで、Claude Codeを使った重大事故のリスクを大幅に減らせる場合があります（効果には個人差・環境差があり、すべての事故を防げるわけではありません）。
 
 ---
 
-## 無料テンプレート配布中
+## Claude Code実戦スキルを無料配布中
 
-上記のHooks設定ファイル一式を無料配布しています。
+本記事のHooksと組み合わせると効くスキル群を、無料リポで公開しています。
 
-**GitHub（無料）:**
-https://github.com/noguso245-jpg/claude-code-starter
+**無料スターター（GitHub・CC BY 4.0）:**
+https://github.com/noguso245-jpg/claude-code-skills-starter
 
-**BOOTH（完全設定セット ¥1,480）:**
-https://streamsolty.booth.pm/items/8413811
+中身は、Claude Code実戦投入の4本のスキル — **CLAUDE.md設計 / 計画ファースト開発（PIV: Plan-Implement-Verify）/ AIコミット戦略 / アジャイルなプロンプト設計** — が日本語・英語の両方で入っています。クローンしてそのまま自分のプロジェクトにコピーして使えます。
 
-5種類のHooks設定 + settings.json + マージ手順書が含まれます。
-
-**完全版（Hooks + 53スキル + MCP + ¥9,800）:**
-https://streamsolty.booth.pm/items/8413724
+役に立ったら、GitHubで ⭐ Star をいただけると新しい無料スキルを追加する励みになります。
 
 ---
 
