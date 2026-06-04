@@ -1,14 +1,14 @@
 ---
 title: Claude Codeの「長くなると急にバカになる」を防ぐ — コンテキストを軽く保つ7つの型（Context Engineering）
 tags:
-  - ClaudeCode
   - AI
+  - 個人開発
   - 生成AI
   - プロンプトエンジニアリング
-  - 個人開発
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-04T16:59:03+09:00'
+id: bbe54ac1797c0bc1e692
 organization_url_name: null
 slide: false
 ignorePublish: false
