@@ -1,14 +1,14 @@
 ---
-title: 'いきなり実装させない — Plan Modeと計画駆動でClaude Codeの暴走を止める型'
+title: いきなり実装させない — Plan Modeと計画駆動でClaude Codeの暴走を止める型
 tags:
-  - ClaudeCode
   - AI
   - 個人開発
   - 生成AI
   - プロンプトエンジニアリング
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-05T16:16:10+09:00'
+id: befac4cb097610ed9c4f
 organization_url_name: null
 slide: false
 ignorePublish: false
