@@ -1,14 +1,14 @@
 ---
-title: 'Claude CodeにMCPで外部ツールを安全に繋ぐ — DB・ブラウザ・APIを実務で扱う最小構成'
+title: Claude CodeにMCPで外部ツールを安全に繋ぐ — DB・ブラウザ・APIを実務で扱う最小構成
 tags:
-  - ClaudeCode
   - AI
   - MCP
   - 個人開発
   - 生成AI
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-06T15:36:12+09:00'
+id: fa761c3755313dc7ed03
 organization_url_name: null
 slide: false
 ignorePublish: false
