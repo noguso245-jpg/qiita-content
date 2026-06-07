@@ -1,14 +1,14 @@
 ---
-title: 'Claude CodeにGit運用を任せる — 巨大コミットを防ぐコミット戦略の型'
+title: Claude CodeにGit運用を任せる — 巨大コミットを防ぐコミット戦略の型
 tags:
-  - ClaudeCode
-  - AI
   - Git
+  - AI
   - 個人開発
   - 生成AI
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-07T16:12:05+09:00'
+id: b1e4a8a07716aeae5aa7
 organization_url_name: null
 slide: false
 ignorePublish: false
