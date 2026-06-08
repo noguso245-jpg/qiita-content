@@ -1,14 +1,14 @@
 ---
-title: 'テストを先に書かせてClaude Codeの暴走を止める — TDDで仕様を固定する実践ループ'
+title: テストを先に書かせてClaude Codeの暴走を止める — TDDで仕様を固定する実践ループ
 tags:
-  - ClaudeCode
-  - AI
   - TDD
   - テスト
+  - AI
   - 個人開発
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-08T17:20:15+09:00'
+id: f1dd929d0aa44d97eea0
 organization_url_name: null
 slide: false
 ignorePublish: false
