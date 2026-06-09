@@ -1,14 +1,14 @@
 ---
 title: Claude Code 最初の30分でやるべき設定 — 「とりあえず動かす」から「実戦で使える」までの導入ガイド
 tags:
-  - ClaudeCode
   - AI
-  - 生成AI
   - 個人開発
+  - 生成AI
   - プロンプトエンジニアリング
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-09T15:56:39+09:00'
+id: b2eba5e2ea79078cafc6
 organization_url_name: null
 slide: false
 ignorePublish: false
