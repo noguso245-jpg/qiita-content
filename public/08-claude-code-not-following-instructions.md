@@ -1,14 +1,14 @@
 ---
 title: Claude Codeが「言うことを聞かない」ときの原因切り分けと対処 — うまくいかない9割はこれで直る
 tags:
-  - ClaudeCode
   - AI
+  - 個人開発
   - 生成AI
   - プロンプトエンジニアリング
-  - 個人開発
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-10T16:15:52+09:00'
+id: fe4fd5f64bd93b3399b1
 organization_url_name: null
 slide: false
 ignorePublish: false
