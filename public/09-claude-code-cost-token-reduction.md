@@ -1,14 +1,14 @@
 ---
 title: Claude Codeのトークン消費を減らす実践テク — 同じ作業を「安く・速く」回す8つの工夫
 tags:
-  - ClaudeCode
   - AI
-  - 生成AI
   - 個人開発
+  - 生成AI
   - プロンプトエンジニアリング
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-11T17:12:57+09:00'
+id: 086db3a5ea3e2ee7be91
 organization_url_name: null
 slide: false
 ignorePublish: false
