@@ -1,14 +1,14 @@
 ---
 title: Claude Code の settings.json と権限設計 — 「確認地獄」と「やりすぎ許可」の間を取る
 tags:
-  - ClaudeCode
   - AI
-  - 生成AI
   - 個人開発
+  - 生成AI
   - プロンプトエンジニアリング
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-13T16:04:31+09:00'
+id: 0f337b9aa3877cebce0a
 organization_url_name: null
 slide: false
 ignorePublish: false
