@@ -1,14 +1,14 @@
 ---
 title: Claude Codeに「開発の型」を渡すと何が変わるか — 計画→実装→検証ワークフロー入門
 tags:
-  - ClaudeCode
-  - AIコーディング
-  - 生成AI
   - 開発効率化
+  - 生成AI
   - LLM
+  - AIコーディング
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-13T11:55:05+09:00'
+id: f550a9118f6fee7b2d25
 organization_url_name: null
 slide: false
 ignorePublish: false
