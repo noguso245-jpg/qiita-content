@@ -1,14 +1,14 @@
 ---
 title: Claude Code を GitHub Actions に組み込む — PRレビューと定型作業を CI で自動化する
 tags:
-  - ClaudeCode
-  - AI
-  - 生成AI
-  - GitHubActions
   - CI
+  - AI
+  - GitHubActions
+  - 生成AI
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-15T18:32:11+09:00'
+id: 77ddf25bd236d262febd
 organization_url_name: null
 slide: false
 ignorePublish: false
