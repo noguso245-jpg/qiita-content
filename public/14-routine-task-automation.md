@@ -1,14 +1,14 @@
 ---
 title: Claude Code で定型タスクを自動化する — ヘッドレスモード(-p)で「人が見ていなくても回る」作業を作る
 tags:
-  - ClaudeCode
-  - AI
-  - 生成AI
-  - 個人開発
   - 自動化
+  - AI
+  - 個人開発
+  - 生成AI
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-16T17:53:03+09:00'
+id: cbd4064c6d920f94697f
 organization_url_name: null
 slide: false
 ignorePublish: false
