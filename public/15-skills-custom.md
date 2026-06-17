@@ -1,14 +1,14 @@
 ---
 title: Claude Code のカスタムスキル(Skills)の作り方 — 「毎回の指示」を再利用できる部品にする
 tags:
-  - ClaudeCode
   - AI
-  - 生成AI
   - 個人開発
+  - 生成AI
   - プロンプトエンジニアリング
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-17T17:35:12+09:00'
+id: f437d4373b8b390800b4
 organization_url_name: null
 slide: false
 ignorePublish: false
