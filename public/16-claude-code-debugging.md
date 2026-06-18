@@ -1,14 +1,14 @@
 ---
-title: 'Claude Codeにバグ調査を任せるときの頼み方｜「直して」をやめて再現→仮説→検証→最小修正で指示する'
+title: Claude Codeにバグ調査を任せるときの頼み方｜「直して」をやめて再現→仮説→検証→最小修正で指示する
 tags:
-  - ClaudeCode
-  - AI
-  - デバッグ
-  - プロンプトエンジニアリング
+  - debug
   - テスト
+  - AI
+  - プロンプトエンジニアリング
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-18T17:17:34+09:00'
+id: a1602f616d2b565f49f3
 organization_url_name: null
 slide: false
 ignorePublish: false
