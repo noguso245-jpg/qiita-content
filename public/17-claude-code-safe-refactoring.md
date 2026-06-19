@@ -1,14 +1,14 @@
 ---
-title: 'Claude Codeで大規模リファクタリングを安全に進める手順｜影響範囲調査→計画→小さく分割→テスト検証→段階適用'
+title: Claude Codeで大規模リファクタリングを安全に進める手順｜影響範囲調査→計画→小さく分割→テスト検証→段階適用
 tags:
-  - ClaudeCode
-  - AI
   - リファクタリング
-  - 生成AI
+  - AI
   - 開発効率化
+  - 生成AI
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-19T17:38:58+09:00'
+id: 755dad30e5945b02d19f
 organization_url_name: null
 slide: false
 ignorePublish: false
