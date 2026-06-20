@@ -1,14 +1,14 @@
 ---
-title: 'Claude Codeにスクショを貼ってUIのバグを直す：Playwright MCPで「変更→確認」を回す実践'
+title: Claude Codeにスクショを貼ってUIのバグを直す：Playwright MCPで「変更→確認」を回す実践
 tags:
-  - ClaudeCode
+  - debug
+  - フロントエンド
   - MCP
   - Playwright
-  - フロントエンド
-  - デバッグ
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-20T16:07:12+09:00'
+id: 7a2168101e241786247f
 organization_url_name: null
 slide: false
 ignorePublish: false
