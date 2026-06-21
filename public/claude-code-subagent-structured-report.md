@@ -1,14 +1,14 @@
 ---
 title: サブエージェントの報告は「自由文」より「決まった型」で受け取る — Claude Codeで並列調査を“そのまま集計できる形”にする実践
 tags:
-  - ClaudeCode
-  - 生成AI
-  - AIエージェント
-  - プロンプトエンジニアリング
   - 個人開発
+  - 生成AI
+  - プロンプトエンジニアリング
+  - AIエージェント
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-21T12:08:46+09:00'
+id: bd039b8004d9420dd96d
 organization_url_name: null
 slide: false
 ignorePublish: false
