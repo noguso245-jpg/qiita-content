@@ -1,14 +1,14 @@
 ---
-title: 'Claude Code をシェルに組み込む：claude -p（ヘッドレス実行）で対話せず1コマンド自動化する実践'
+title: Claude Code をシェルに組み込む：claude -p（ヘッドレス実行）で対話せず1コマンド自動化する実践
 tags:
-  - ClaudeCode
-  - 生成AI
+  - ShellScript
   - CLI
   - 自動化
-  - シェルスクリプト
+  - 生成AI
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-25T15:54:56+09:00'
+id: 8eba66d763c3eeb58d56
 organization_url_name: null
 slide: false
 ignorePublish: false
