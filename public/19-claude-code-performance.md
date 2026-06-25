@@ -1,14 +1,14 @@
 ---
 title: Claude Code が遅い・重い時の対処法 — コンテキスト管理の実践ガイド
 tags:
-  - ClaudeCode
   - パフォーマンス
-  - トークン最適化
   - MCP
   - 生成AI
+  - ClaudeCode
+  - トークン最適化
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-25T12:02:22+09:00'
+id: f7a1a05b06b5e72345e5
 organization_url_name: null
 slide: false
 ignorePublish: false
