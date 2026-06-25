@@ -1,14 +1,14 @@
 ---
 title: AIの「もっともらしい嘘」を独立した検証エージェントの多数決で落とす — Claude Codeで調査結果を“裏取り”する実践
 tags:
-  - ClaudeCode
   - 生成AI
-  - AIエージェント
-  - プロンプトエンジニアリング
   - LLM
+  - プロンプトエンジニアリング
+  - AIエージェント
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-25T11:09:02+09:00'
+id: 0fda2216380f4b0391a8
 organization_url_name: null
 slide: false
 ignorePublish: false
