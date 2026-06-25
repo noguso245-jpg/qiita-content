@@ -10,6 +10,8 @@ private: false
 updated_at: ''
 id: null
 organization_url_name: null
+slide: false
+ignorePublish: false
 ---
 
 大規模プロジェクトで Claude Code を使うエンジニアなら、誰もが経験したことがあるはずだ。「なぜか応答が遅くなってきた」「トークンが枯渇している」——こうした症状は、多くの場合 **コンテキスト窓の圧迫** が原因だ。
