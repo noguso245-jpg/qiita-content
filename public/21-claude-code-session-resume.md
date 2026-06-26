@@ -1,14 +1,14 @@
 ---
-title: 'Claude Code のセッションが途中で切れて困らない技術：--continue / --resume で長時間タスクを引き継ぐ実践'
+title: Claude Code のセッションが途中で切れて困らない技術：--continue / --resume で長時間タスクを引き継ぐ実践
 tags:
-  - ClaudeCode
-  - 生成AI
-  - 開発効率化
   - CLI
+  - 開発効率化
+  - 生成AI
   - AIエージェント
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-26T16:01:17+09:00'
+id: fc49a6f92b189fda3de9
 organization_url_name: null
 slide: false
 ignorePublish: false
