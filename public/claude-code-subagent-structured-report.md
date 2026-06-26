@@ -1,13 +1,13 @@
 ---
 title: Claude Code サブエージェントの報告を「決まった型」で受け取る — 並列調査をそのまま集計する実践
 tags:
-  - サブエージェント
   - 生成AI
   - プロンプトエンジニアリング
   - AIエージェント
   - ClaudeCode
+  - サブエージェント
 private: false
-updated_at: '2026-06-21T12:08:46+09:00'
+updated_at: '2026-06-26T20:44:36+09:00'
 id: bd039b8004d9420dd96d
 organization_url_name: null
 slide: false
