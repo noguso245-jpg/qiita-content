@@ -1,14 +1,14 @@
 ---
-title: 'Claude Code で他人の巨大コードベースを最速で理解する探索術 ― 全読み込みせず構造を掴む'
+title: Claude Code で他人の巨大コードベースを最速で理解する探索術 ― 全読み込みせず構造を掴む
 tags:
-  - ClaudeCode
-  - 生成AI
-  - リーディング
   - コードリーディング
   - 開発効率化
+  - 生成AI
+  - ClaudeCode
+  - リーディング
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-27T15:35:07+09:00'
+id: 3289c6c965a5cef5875e
 organization_url_name: null
 slide: false
 ignorePublish: false
