@@ -1,14 +1,14 @@
 ---
-title: 'ターミナルだけじゃもったいない：Claude Code を VS Code / JetBrains と統合して使い倒す'
+title: ターミナルだけじゃもったいない：Claude Code を VS Code / JetBrains と統合して使い倒す
 tags:
-  - ClaudeCode
-  - VSCode
   - JetBrains
-  - 生成AI
+  - VSCode
   - 開発効率化
+  - 生成AI
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-28T16:08:46+09:00'
+id: 31e9a319df89382734f0
 organization_url_name: null
 slide: false
 ignorePublish: false
