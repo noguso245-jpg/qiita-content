@@ -1,14 +1,14 @@
 ---
-title: 'Claude Code でセキュリティ点検を習慣化する：/security-review と差分の脆弱性レビュー実践'
+title: Claude Code でセキュリティ点検を習慣化する：/security-review と差分の脆弱性レビュー実践
 tags:
-  - ClaudeCode
-  - セキュリティ
-  - 生成AI
+  - Security
   - コードレビュー
   - 個人開発
+  - 生成AI
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-29T17:23:34+09:00'
+id: a2c4bc1649fec028cdbf
 organization_url_name: null
 slide: false
 ignorePublish: false
