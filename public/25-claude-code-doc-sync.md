@@ -1,14 +1,14 @@
 ---
-title: 'Claude Code でドキュメントを「コードと同期」させる実践 — README・設計書・コメントを腐らせない運用'
+title: Claude Code でドキュメントを「コードと同期」させる実践 — README・設計書・コメントを腐らせない運用
 tags:
-  - ClaudeCode
   - ドキュメント
-  - 生成AI
-  - README
+  - Readme
   - 開発効率化
+  - 生成AI
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-30T16:01:33+09:00'
+id: a40120c7c4ea06c68cb3
 organization_url_name: null
 slide: false
 ignorePublish: false
