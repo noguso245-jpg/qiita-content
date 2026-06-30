@@ -2,13 +2,13 @@
 title: Claude Code サブエージェント並列の「無駄トークン」を止める — 同時実行を絞る＋重複調査を弾く（dedup）実践
 tags:
   - 生成AI
+  - プロンプトエンジニアリング
   - AIエージェント
   - ClaudeCode
   - サブエージェント
-  - プロンプトエンジニアリング
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-30T12:23:24+09:00'
+id: bfbaa0e4a4972985cce6
 organization_url_name: null
 slide: false
 ignorePublish: false
