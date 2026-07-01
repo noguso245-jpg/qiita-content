@@ -1,14 +1,14 @@
 ---
-title: 'Claude Codeのトークンを「測ってから削る」— /usage で何が見えて、どこを削るか'
+title: Claude Codeのトークンを「測ってから削る」— /usage で何が見えて、どこを削るか
 tags:
-  - ClaudeCode
   - AI
-  - 生成AI
-  - トークン
   - 個人開発
+  - トークン
+  - 生成AI
+  - ClaudeCode
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-07-01T16:18:47+09:00'
+id: 14edd7448e452795798c
 organization_url_name: null
 slide: false
 ignorePublish: false
