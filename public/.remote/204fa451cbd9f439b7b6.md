@@ -12,6 +12,8 @@ id: 204fa451cbd9f439b7b6
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 Claude Codeを毎日使っていると、こういう瞬間が必ずあります。

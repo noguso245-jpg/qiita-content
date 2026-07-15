@@ -12,6 +12,8 @@ id: bfbaa0e4a4972985cce6
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 サブエージェントを並列でたくさん走らせると、調査は速くなる——けれど、ある日トークンの消費だけが妙に膨らんでいることに気づきます。この記事は、その「並列にしたら速くなったが、コストが跳ねた」を**同時実行の絞り込み**と**重複調査の排除（dedup）**で抑える話です。

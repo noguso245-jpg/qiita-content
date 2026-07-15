@@ -12,6 +12,8 @@ id: b2eba5e2ea79078cafc6
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 Claude Codeをインストールしてみたものの、こんな状態で止まっていませんか。

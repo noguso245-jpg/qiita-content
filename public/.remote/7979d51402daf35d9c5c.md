@@ -12,6 +12,8 @@ id: 7979d51402daf35d9c5c
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 並列で調べさせて、報告を型で揃えて、別エージェントで裏取りもできるようになった——その次に静かに効いてくるのが「**親（呼び出した側）のコンテキストが、子の報告で埋まっていく**」問題です。この記事は、サブエージェントの結果を親にどう返させると、親の文脈を汚さずに調査を回し続けられるか、の話です。

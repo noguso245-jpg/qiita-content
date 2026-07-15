@@ -12,6 +12,8 @@ id: fc49a6f92b189fda3de9
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## あるある：「あの会話、もう一回はじめからやり直し…？」

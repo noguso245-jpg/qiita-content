@@ -9,6 +9,8 @@ id: 9f4aab1efde1ca39d562
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 「AIがうっかり.envを書き換えた」「コストが気づいたら$200超えていた」
 

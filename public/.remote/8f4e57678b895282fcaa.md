@@ -12,6 +12,8 @@ id: 8f4e57678b895282fcaa
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 並列で調べさせて、報告を型で揃えて、別エージェントで裏取りして、結論＋住所だけ受け取る——ここまでは「**うまくいったとき**」の話でした。けれど何体も並列で回していると、遅かれ早かれぶつかるのが「**10体投げて、9体は返ってきたのに1体だけ落ちている**」状況です。この記事は、子が1体こけても全体を止めず、失敗した分だけを拾い直す受け渡しの話です。

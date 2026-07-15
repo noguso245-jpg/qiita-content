@@ -12,6 +12,8 @@ id: 0fda2216380f4b0391a8
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 サブエージェントで調査を並列化して、報告を構造化して、きれいに集計できるようになった——その次にぶつかるのが「**その中身、本当に合ってるの？**」という壁です。この記事は、AIの出力に混じる“もっともらしい嘘”を、独立した検証エージェントで機械的にふるい落とす型の話です。

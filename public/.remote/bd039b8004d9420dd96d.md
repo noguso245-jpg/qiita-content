@@ -12,6 +12,8 @@ id: bd039b8004d9420dd96d
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 複数のフォルダやサービスをサブエージェントで一括調査（横断調査・棚卸し）すると、最後に集計が手作業へ逆戻りする——この記事は、それを「報告の構造化」で解く話です。
