@@ -1,17 +1,21 @@
 ---
-title: '楽天市場APIが2026年に全面刷新されていた — 404連発から抜け出す新認証（applicationId + accessKey + Referer）移行メモ'
+title: >-
+  楽天市場APIが2026年に全面刷新されていた — 404連発から抜け出す新認証（applicationId + accessKey +
+  Referer）移行メモ
 tags:
-  - 楽天API
-  - RakutenWebService
   - API
-  - 個人開発
   - トラブルシューティング
+  - 楽天API
+  - 個人開発
+  - RakutenWebService
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-07-15T14:39:58+09:00'
+id: 2a2a203cbc37fefdc115
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 楽天市場の商品検索APIを使っていて、こんな状況に心当たりはないでしょうか。

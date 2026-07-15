@@ -12,6 +12,8 @@ id: 68e29d4615b2d0306a84
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 並列で調べさせて、報告を型で揃えて、裏取りして、失敗分だけ拾い直して、無駄トークンも削った——ここまでやると、並列調査はかなり安定して回るようになります。それでも最後に一度は必ずぶつかるのが、**「2体の子が、同じ対象について違う結論を返してきた」**という状況です。この記事は、その矛盾を親がどう裁いて1つの結論に束ねるか（synthesis/集約）の話です。
