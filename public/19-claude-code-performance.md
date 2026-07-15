@@ -12,6 +12,8 @@ id: f7a1a05b06b5e72345e5
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 大規模プロジェクトで Claude Code を使うエンジニアなら、誰もが経験したことがあるはずだ。「なぜか応答が遅くなってきた」「トークンが枯渇している」——こうした症状は、多くの場合 **コンテキスト窓の圧迫** が原因だ。

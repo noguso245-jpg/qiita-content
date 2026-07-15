@@ -12,6 +12,8 @@ id: 8eba66d763c3eeb58d56
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## あるある課題：「便利なのに、毎回手で対話している」

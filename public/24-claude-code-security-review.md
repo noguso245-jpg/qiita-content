@@ -12,6 +12,8 @@ id: a2c4bc1649fec028cdbf
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## 「セキュリティ観点のレビュー、後回しにしてませんか」

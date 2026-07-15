@@ -12,6 +12,8 @@ id: f550a9118f6fee7b2d25
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ## はじめに：なぜAIに任せると「惜しい」結果になるのか

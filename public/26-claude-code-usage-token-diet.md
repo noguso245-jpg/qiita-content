@@ -12,6 +12,8 @@ id: 14edd7448e452795798c
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 > 📦 この記事で出てくる「コンテキストを軽くする」スキル（CLAUDE.md設計など）は、無料リポ（GitHub・CC BY 4.0）で配布しています。すぐ試したい方は記事末の「今すぐ試す」へ。

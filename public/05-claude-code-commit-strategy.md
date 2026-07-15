@@ -12,6 +12,8 @@ id: b1e4a8a07716aeae5aa7
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 Claude Codeに機能を一気に実装させたあと、コミットを任せると、だいたいこうなります。

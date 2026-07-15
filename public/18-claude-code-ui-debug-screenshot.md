@@ -12,6 +12,8 @@ id: 7a2168101e241786247f
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 CSSのちょっとした崩れ、レスポンシブで折り返したボタン、ダークモードだけ読めなくなる文字色。こういう「見た目のバグ」は、テキストで説明するのが地味に面倒です。「ヘッダーの右上のアイコンが少し下にずれてて…」と打つより、スクショを1枚貼ったほうが伝わりやすい場面が多いです。

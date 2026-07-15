@@ -12,6 +12,8 @@ id: e049ec5e80dddb8e1cdd
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 Claude Codeをしばらく使っていると、こんな「毎回の手作業」が溜まってきませんか。

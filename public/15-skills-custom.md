@@ -12,6 +12,8 @@ id: f437d4373b8b390800b4
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 Claude Codeを使っていると、「またこの指示を打つのか」という場面が増えてきませんか。

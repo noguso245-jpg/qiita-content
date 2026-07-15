@@ -12,6 +12,8 @@ id: 0f337b9aa3877cebce0a
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 Claude Codeの権限まわりで、こんな状態になっていませんか。

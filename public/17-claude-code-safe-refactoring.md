@@ -12,6 +12,8 @@ id: 755dad30e5945b02d19f
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 大規模なリファクタリングをAIに任せるとき、一番やってはいけないのが「全部いい感じに直して」と丸投げして一括置換させることです。差分が巨大になり、どこで壊れたか追えなくなり、結局自分で全部読み直すハメになります。

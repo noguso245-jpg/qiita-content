@@ -12,6 +12,8 @@ id: cbd4064c6d920f94697f
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 Claude Codeを「対話しながら使うもの」と思っていると、見落としがちな使い方があります。**ヘッドレス（非対話）モード**です。これを使うと、スクリプトやcronから呼び出して、人が画面を見ていなくても定型タスクを回せます。
