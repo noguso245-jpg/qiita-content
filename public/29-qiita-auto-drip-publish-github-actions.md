@@ -1,17 +1,21 @@
 ---
-title: 'この記事は自動投稿されています — git pushだけでQiitaに毎日1本ずつ記事を公開する仕組み（GitHub Actions × qiita-cli）'
+title: >-
+  この記事は自動投稿されています — git pushだけでQiitaに毎日1本ずつ記事を公開する仕組み（GitHub Actions ×
+  qiita-cli）
 tags:
   - Qiita
-  - GitHubActions
-  - qiita-cli
   - 自動化
   - CICD
+  - GitHubActions
+  - qiita-cli
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-07-16T14:47:55+09:00'
+id: 4820b56996cb0461a719
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 この記事、実は**人間がQiitaの投稿ボタンを押していません**。
