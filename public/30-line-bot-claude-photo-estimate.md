@@ -1,17 +1,19 @@
 ---
-title: 'LINEで写真を送るとAIが見積もりを返すボットを作った — LINE Webhook「検証」ボタンの罠と本当の疎通確認方法'
+title: LINEで写真を送るとAIが見積もりを返すボットを作った — LINE Webhook「検証」ボタンの罠と本当の疎通確認方法
 tags:
   - LINEmessagingAPI
-  - LINEBot
+  - linebot
   - Claude
   - ngrok
   - AI
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-07-17T14:49:01+09:00'
+id: 69b9fbcbaa58f357e44f
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 LINE Messaging APIでボットを作り始めると、こんな場面に出くわします。
