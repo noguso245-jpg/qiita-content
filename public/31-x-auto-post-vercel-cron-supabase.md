@@ -1,17 +1,21 @@
 ---
-title: 'X(Twitter)自動投稿botの401/403エラー、原因はほぼこの5つ — Vercel Cron × Supabase × twitter-api-v2 運用で全部踏んだ'
+title: >-
+  X(Twitter)自動投稿botの401/403エラー、原因はほぼこの5つ — Vercel Cron × Supabase ×
+  twitter-api-v2 運用で全部踏んだ
 tags:
   - TwitterAPI
   - Vercel
   - Supabase
-  - Nextjs
+  - Next.js
   - 自動化
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-07-18T14:34:27+09:00'
+id: 3e43a1ed03a687739c38
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 X(Twitter)の自動投稿botを作っていると、こんな状況に陥りがちです。
