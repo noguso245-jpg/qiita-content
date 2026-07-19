@@ -1,5 +1,5 @@
 ---
-title: 'Claude Codeに毎朝の定型業務をやらせる（Windows編）— タスクスケジューラ×headlessモードで踏んだ3つの落とし穴'
+title: Claude Codeに毎朝の定型業務をやらせる（Windows編）— タスクスケジューラ×headlessモードで踏んだ3つの落とし穴
 tags:
   - ClaudeCode
   - Windows
@@ -7,11 +7,13 @@ tags:
   - 自動化
   - AI
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-07-19T15:06:08+09:00'
+id: 514c37c06939b660b552
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 Claude Codeのheadlessモード（`claude -p`）を知って、「これを毎朝勝手に走らせれば、朝イチの定型作業が消えるのでは」と思った人がまず突き当たるのがここです。
