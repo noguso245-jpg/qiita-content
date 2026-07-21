@@ -1,5 +1,5 @@
 ---
-title: 'DifyのParameter Extractorは思い通りに動かない — ヒアリングボット実装で踏んだクセと制御パターン'
+title: DifyのParameter Extractorは思い通りに動かない — ヒアリングボット実装で踏んだクセと制御パターン
 tags:
   - Dify
   - LLM
@@ -7,11 +7,13 @@ tags:
   - 生成AI
   - ノーコード
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-07-21T15:04:12+09:00'
+id: 7089679814ad2a24a223
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 DifyのChatflowでヒアリング型ボット（項目を聞き出して構造化するボット）を作っていると、こんな症状に振り回されます。
