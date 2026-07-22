@@ -1,17 +1,19 @@
 ---
-title: 'Reactで動画を量産する — Remotionで「音に反応する」アニメーション動画を作る実装パターン（横・縦両対応）'
+title: Reactで動画を量産する — Remotionで「音に反応する」アニメーション動画を作る実装パターン（横・縦両対応）
 tags:
   - React
-  - Remotion
+  - remotion
   - TypeScript
   - 動画
   - 個人開発
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-07-22T15:02:59+09:00'
+id: aaa3f60782d2f1cf8b39
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 動画コンテンツを作っていると、こんな引っかかりが出てきます。
