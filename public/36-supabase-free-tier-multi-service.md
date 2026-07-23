@@ -1,17 +1,19 @@
 ---
-title: 'Supabase無料枠「2プロジェクト」を設計で乗り切る — テーブルprefixで複数サービスを1プロジェクトに相乗りさせる運用術'
+title: Supabase無料枠「2プロジェクト」を設計で乗り切る — テーブルprefixで複数サービスを1プロジェクトに相乗りさせる運用術
 tags:
   - Supabase
   - PostgreSQL
   - 個人開発
-  - データベース設計
+  - データべース設計
   - 無料枠
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-07-23T15:08:14+09:00'
+id: 46ac024e569eebc4c41c
 organization_url_name: null
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 個人開発でSupabaseを使っていると、いつかこの壁に当たります。
